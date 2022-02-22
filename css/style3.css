@@ -1,0 +1,726 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(50, 89, 216);
+    width: 100%;
+}
+#place h2{
+    border-bottom: 1px solid black;
+    color: rgb(132, 205, 247)
+}
+#com{
+    border-radius: 5px;
+    width: 50%;
+    color: aliceblue;
+    height: 30px; 
+    margin-left: 26%;
+    margin-bottom: 5px;
+    border: none;
+}
+#place{
+    position: absolute;
+    width: 25%;
+    margin-top: 1%;
+    padding: 3px;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px
+}   
+#comment{
+        width: 400px;
+        height: 50px;
+        border-radius: 5px;
+        font-family: Franklin Gothic Medium;
+}
+#submit{
+    border-radius: 5px;
+    width: 70px;
+    color: aliceblue;
+    height: 30px; 
+    margin-bottom: 5px;
+    background-color: rgb(25, 25, 26);
+    border: none;
+}
+#submit:hover{
+    opacity: .7;
+}
+#logout{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    float: right;
+    width: 70px;
+    height: 30px; 
+    padding: 5px;
+    background-color: rgb(25, 25, 26);
+    border-radius: 5px;
+}
+.form{
+    float: center;
+    margin-left: 30%;
+    border: 1px solid blue;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.form label{
+    margin-left: 30%;
+}
+.form input {
+    background-color: rgb(216, 237, 250);
+    margin-left: 30%;
+}
+.form input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Franklin Gothic Medium;
+}
+.form input[type="submit"]{
+    border-radius: 5px;
+    width: 70px;
+    color: aliceblue;
+    height: 30px; 
+    margin-left: 86%;
+    margin-bottom: 5px;
+    background-color: rgb(25, 25, 26);
+    border: none;
+}
+#com{
+    border-radius: 5px;
+    width: 50%;
+    color: aliceblue;
+    height: 30px; 
+    margin-left: 26%;
+    margin-bottom: 5px;
+    border: none;
+}
+#comment{
+        width: 400px;
+        height: 50px;
+        border-radius: 5px;
+        font-family: Franklin Gothic Medium;
+}
+#submit{
+    border-radius: 5px;
+    width: 70px;
+    color: aliceblue;
+    height: 30px; 
+    margin-bottom: 5px;
+    background-color: rgb(25, 25, 26);
+    border: none;
+}
+#submit:hover{
+    opacity: .7;
+}
+.form{
+    float: center;
+    margin-left: 30%;
+    border: 1px solid blue;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.form label{
+    margin-left: 30%;
+}
+.form input {
+    background-color: rgb(216, 237, 250);
+    margin-left: 30%;
+}
+.form input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Franklin Gothic Medium;
+}
+.form input[type="submit"]{
+    border-radius: 5px;
+    width: 70px;
+    color: aliceblue;
+    height: 30px; 
+    margin-left: 86%;
+    margin-bottom: 5px;
+    background-color: rgb(25, 25, 26);
+    border: none;
+}
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+h4{
+    float: right;
+    color: rgb(228, 190, 23);
+    padding-right: 410px;
+}
+#for{
+    float: right;
+    color: rgb(0, 0, 0);
+    padding-right: 302px;
+    border: 1px solid black;
+    font-size: 35px;
+}
+#far{
+    float: right;
+    color: rgb(0, 0, 0);
+    padding-right: 302px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+#GC{
+    background-color: aliceblue;
+}
+#he{
+    text-align: center;
+    margin-left: 1%;
+    font-size: 150%;
+    border: 1px solid black;
+    width: 345px;
+}
+footer a img{
+    width: 4%;
+}
+#b{
+    float: center;
+    padding-right:-500px ;
+}
+#home{
+    border-bottom: 2px solid rgb(85, 85, 83);
+}
+#sidebar{
+    position: absolute;
+    width: 200px;
+    height: 303px;
+    background-color: rgb(187, 187, 184);
+    left: -200px;
+    transition: all 500ms linear;
+}
+nav img{
+    float: left;
+    width: 8%;
+}
+#boy{
+    padding-right: 800px;
+    padding-left: -200px;
+}
+#be{
+    border-bottom: 3px solid black;
+    margin-top: 32%;
+    width: 50%;
+    margin-left: 260px;
+}
+#infol{
+    background-color: rgb(85, 85, 83);
+    border: 2px solid rgb(187, 187, 184);
+    color: rgb(255, 255, 255);
+    width: 86.5%;
+    margin-top: 5%;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding-left: 4px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+h5{
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    color: rgb(228, 190, 23)
+}
+#news img{
+    padding-left: 0px;
+    width: 60%;
+    height: 20%;
+    float: left;
+}
+#nor{
+    width: 36%;
+    height: 6%;
+    float: right;
+    margin-right: 25px
+}
+#news text{
+    width: 30%;
+}
+#text{
+    position: absolute;
+    width: 37%;
+    padding-left: 62%;
+    text-align: left;
+
+}
+#sidenews{
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 180px;
+    margin-left: 60px;
+}
+#sidebar .toggle-btn :hover{
+    color: rgb(0, 0, 0);
+}
+
+#agri{
+    background-color: rgb(241, 241, 241);
+    color: #000;
+}
+#txt{
+    color: #000;
+    padding-left: 14px;
+    width: 70%
+}
+#rightbar{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 235, 235);
+    
+    padding-top : -350px;
+    top: -50px;  
+    
+}
+nav a:before {
+	content:'';
+	display: block;
+	height: 5px;
+	background-color: black;
+    position: absolute;
+    bottom:0px ;
+    width: 0%;
+    margin-top: 10px;
+    transition: all ease-in-out 250ms;
+}
+nav a:active{
+    background-color: rgb(41, 40, 40);
+}
+nav a:hover::before{
+    width:50% ;
+    height: 10%;
+    background-color: rgb(226, 226, 222)
+}
+#rightbar li{
+    color: aliceblue;
+    padding: 15px 10px;
+    border-bottom: 1px solid  rgb(46, 49, 49);
+    list-style: none;
+}
+
+#article{
+    text-align: left;
+    float: right;
+    padding-right: 390px;
+    margin-left: 220px;
+    padding-top: -200px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#news{
+    text-align: left;
+    padding-right: 10px;
+    margin-left: 1%;
+    font-size: 25px;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(33, 68, 182);
+    border-bottom : 1px solid rgb(11, 8, 194) ; 
+}
+#se{
+    color: white;
+    text-align: right;
+    margin-right: 890px;
+    border-right: 1px solid rgb(41, 40, 40);
+}
+#ip{
+    float: right
+}
+nav ul{
+    text-align: center;
+    display: flex;
+    margin: 2px;
+    float: right;
+    margin-top: 30px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding-right: 0 80px;
+    text-align: center;
+    
+}
+
+nav a{
+    display: block;
+    color: aliceblue;
+    padding: 0 30px;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid  rgb(46, 49, 49);
+    position: relative;
+    
+}
+nav a:hover {
+    color: rgb(73, 73, 73);
+}
+#GC{
+    text-decoration: rgb(0, 0, 0);
+}
+#sidebar li{
+    color: aliceblue;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid  rgb(46, 49, 49);
+    text-decoration: none;
+}
+#sidebar a{
+    text-decoration: none;
+    color: black;
+}
+#sidebar a:hover{
+    color: rgb(75, 73, 73)
+}
+#sidebar a:active{
+    color: rgb(0, 0, 0)
+}
+
+h1{
+    padding: 10px 100px;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    border-bottom: 1px solid  rgb(234, 235, 231)
+}
+section{
+    widows: 12px;
+    padding-left: 10px
+}
+.luk{
+    float: center;
+    padding-left: 2%
+}
+.luk img{
+    position: absolute;
+    
+}
+.luk a{
+    text-align: left;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(206, 169, 3);
+    font-size: 38.5px;
+    float: bottom;
+    margin-top: 370px;
+}
+p img{
+    margin-left: 26%;
+    width: 30%
+}
+a img{
+    position: absolute;
+    padding-left: 10%;
+    width: 140%
+}
+.luk p{
+    text-align: left;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float: bottom;
+    margin-top: 410px;
+    width: 23%
+}
+footer{
+    background-color: aliceblue;
+    margin-top: 30%;
+}
+footer img{
+    width: 140px
+}
+footer h2{
+    text-align: center;
+}
+#more{
+    float: right
+}
+#footernav{
+    
+}
+@media only screen and (max-width: 1010px){
+    
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color:rgb(238, 235, 235);
+        width: 100%;
+    }
+    *{
+        margin:0px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+    #he{
+        text-align: center;
+        margin-left: 1%;
+        font-size: 150%;
+        border: 1px solid black;
+        width: 345px;
+    }
+    #b{
+        float: center;
+        padding-right:-500px ;
+    }
+    #for{
+        float: left;
+        color: rgb(0, 0, 0);
+        margin-left: 5px;
+        padding-right: 195px;
+        border: 1px solid black;
+        font-size: 20px;
+        width: 170px;
+    }
+    #far{
+        float: left;
+        color: rgb(0, 0, 0);
+        margin-left: 5px;
+        padding-right: 195px;
+        border: 1px solid black;
+        font-size: 20px;
+        width: 170px;
+    }
+    #nor{
+        width: 100%;
+        float: right;
+    }
+    #home{
+        border-bottom: 2px solid rgb(85, 85, 83);
+    }
+    #sidebar{
+        position: absolute;
+        width: 200px;
+        height: 293px;
+        background-color: rgb(187, 187, 184);
+        left: -200px;
+        transition: all 500ms linear;
+    }
+    #boy{
+        padding-right: 800px;
+        padding-left: -200px;
+    }
+    #sidebar.active{
+        left: 0px;
+    }
+    #news{
+        text-align: left;
+        padding-right: 10px;
+        margin-left: 1%;
+        font-size: 15px;
+    }
+    #sidenews{
+        color: rgb(0, 0, 0);
+        float: left;
+        width: 180px;
+        margin-left: 60px;
+    }
+    #sidebar .toggle-btn :hover{
+        color: rgb(0, 0, 0);
+    }
+    #toggle-btn{
+        position: absolute;
+        padding-top: 35px ;
+        padding-left: 5px ;
+    }
+    
+    #toggle-btn span{
+        display: block;
+        width: 30px;
+        height: 5px;
+        background:black;
+        margin: 3px 0px;
+    }
+    section{
+        widows: 12px;
+        padding-left: 10px;
+    }
+    #agri{
+        background-color: rgb(241, 241, 241);
+        color: #000;
+    }
+    #txt{
+        color: #000;
+    }
+    #rightbar{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(238, 235, 235);
+        float: center;
+        padding-top : -350px;
+        top: -50px;
+        
+        
+    }
+    nav a:before {
+        content:'';
+        display: block;
+        height: 5px;
+        background-color: black;
+        position: absolute;
+        bottom:0px ;
+        width: 0%;
+        margin-top: 10px;
+        transition: all ease-in-out 250ms;
+    }
+    nav a:active{
+        background-color: rgb(41, 40, 40);
+    }
+    nav a:hover::before{
+        width:50% ;
+        height: 10%;
+        background-color: rgb(226, 226, 222)
+    }
+    #rightbar li{
+        color: aliceblue;
+        padding: 15px 10px;
+        border-bottom: 1px solid  rgb(46, 49, 49);
+        list-style: none;
+    }
+    #infol{
+        background-color: #000;
+        border: 2px solid rgb(91, 245, 194);
+        width: 100%;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-left: 1px;
+    }
+    #be{
+        display:none;
+    }
+    h5{
+        border-bottom: 1px solid black;
+        font-size: 30px;
+        color: rgb(228, 190, 23);
+    }
+    
+    #article{
+        text-align: left;
+        float: right;
+        padding-right: 390px;
+        margin-left: 220px;
+        padding-top: -200px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    nav{
+        width: 100%;
+        height: 90px;
+        background-color: rgb(8, 37, 134);
+        border-bottom : 1px solid rgb(0, 0, 0) ;
+    }
+    #se{
+        color: white;
+        text-align: right;
+        margin-right: 890px;
+        border-right: 1px solid rgb(41, 40, 40);
+    }
+    nav ul{
+        text-align: center;
+        display: flex;
+        margin: 20px;
+        float: right;
+    }
+    nav li{
+        display: none;
+        
+    }
+    #news img{
+        padding-left: 0px;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    nav img{
+        padding-top: 1%;
+        padding-left: 30%;
+        width: 200px;
+        position: sticky;
+    }
+    nav a{
+        display: block;
+        color: black;
+        padding: 0 30px;
+        text-decoration: none;
+        text-align: center;
+        border-left: 1px solid  rgb(46, 49, 49);
+        position: relative;
+        
+    }
+    nav a:hover {
+        color: rgb(73, 73, 73);
+    }
+    #GC{
+        text-decoration: rgb(0, 0, 0);
+    }
+    #sidebar li{
+        color: aliceblue;
+        list-style: none;
+        padding: 15px 10px;
+        border-bottom: 1px solid  rgb(46, 49, 49);
+        text-decoration: none;
+    }
+    #sidebar a{
+        text-decoration: none;
+        color: black;
+    }
+    #sidebar a:hover{
+        color: rgb(75, 73, 73);
+    }
+    #sidebar a:active{
+        color: rgb(0, 0, 0);
+    }
+    #sidebar li:hover{
+        background-color: rgb(223, 222, 219);
+        color: #000;
+    }
+    h1{
+        padding: 10px 100px;
+        text-align: center;
+        background-color: rgb(15, 15, 15);
+        border-bottom: 1px solid  rgb(234, 235, 231);
+    }
+    h4{
+        float: right;
+        color: rgb(228, 190, 23);
+        padding-right: 410px;
+        padding-top: 400px;
+        font-size: 50px
+    }
+    section{
+        widows: 12px;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(33, 68, 182);
+        margin-top: 30%;
+}
+footer img{
+    width: 240px;
+    padding: 10px;
+}
+footer a img{
+    width: 10%;
+}
+#ip{
+    float: right;
+    width: 45%;
+}
+footer h2{
+    text-align: center;
+}
+#more{
+    float: right; 
+ }
+    }
+    
+    
