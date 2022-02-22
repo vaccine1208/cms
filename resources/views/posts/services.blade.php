@@ -19,7 +19,7 @@
   </div>
   <div class="col-sm-3 col-lg-3 shadow m-2">
   <h4 class="text-center">WE DELIVER</h4>
-      <p class="text-center">We deliver everywhere across Blantyre<p>
+      <p class="text-center">We deliver everywhere across Blantyre.<p>
   </div>
   <div class="col-sm-3 col-lg-3 shadow m-2 ">
   <h4 class="text-center">QULAITY PRODUCTS</h4>
