@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
-
+use App\Models\intel;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,10 +14,13 @@ use App\Http\Controllers\RegisterController;
 |
 */
 Route::get('/', function () {
-    return view('posts.index');
+    $intel = intel::orderBy('name', 'asc')->get();
+ return view('posts.index',['intel'=> $intel,]);
 });
-
+Route::get('/categories',[RegisterController::class,'categories'])->name('posts.categories');
 Route::get('/contact',[RegisterController::class,'contact'])->name('posts.contact');
 Route::get('/services',[RegisterController::class,'services'])->name('posts.services');
+Route::post('/home',[RegisterController::class,'store']);
 Route::get('/home',[RegisterController::class,'home'])->name('posts.home');
+
 

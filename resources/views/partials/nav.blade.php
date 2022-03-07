@@ -15,6 +15,9 @@
           <a class="nav-link" aria-current="page" href="{{ route('posts.home') }}">Home</a>
             </li>
             <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{ route('posts.categories') }}">Categories</a>
+            </li>
+            <li class="nav-item">
             <a class="nav-link" aria-current="page" href="{{ route('posts.contact') }}">Contact</a>
             </li>
             

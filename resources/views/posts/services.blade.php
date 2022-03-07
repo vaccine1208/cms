@@ -8,6 +8,7 @@
     <div class="col-sm-4">
         <h2 class="text-success">OUR SERVICES</h2>
         <p>What we do</p>
+        <p class="text-center">{{ $intel->name }}->{{ $intel->type }}</p>
 </div>
 </div>
 <br>
