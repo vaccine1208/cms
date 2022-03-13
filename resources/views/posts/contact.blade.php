@@ -14,7 +14,7 @@
 </div>
 </div>
 <br>
-<div class="row">
+<div class="row" style="padding-bottom:150px">
     <div class="col-sm-4">
         <h5>Call Us</h5>
         <p class="text-dark">
@@ -37,12 +37,6 @@
 </div>
 </div>
 </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 @endsection
 @section('footer')
     @include('partials.footer')

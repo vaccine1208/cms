@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Scifi Store</title>
-
+<title>SCIFI STORE</title>
+  <link rel="icon" href="{{URL('images/SS.png')}}">
+  
 <!-- Mirrored from www.w3schools.com/w3css/tryw3css_templates_blog.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 01:33:10 GMT -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +21,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 @yield('navbar')
 <section class="container mt-5">
+
     @yield('content')
 </section>
 @yield('footer')

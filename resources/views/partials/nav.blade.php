@@ -12,23 +12,22 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="{{ route('posts.home') }}">Home</a>
+              <a class="nav-link" href="{{ route('posts.homepage') }}">
+                Home
+              </a>
             </li>
-            <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="{{ route('posts.categories') }}">Categories</a>
+          
+          <a class="nav-link" aria-current="page" href="{{ route('posts.about') }}">About</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" aria-current="page" href="{{ route('posts.contact') }}">Contact</a>
-            </li>
-            
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{ url('/logout') }}"><button class="btn-outline-dark">Log Out</button> </a>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('posts.services') }}">
-                Services
-              </a>
-            </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <form class="d-flex" action="{{ route('posts.search') }}" method="GET">
+            <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
