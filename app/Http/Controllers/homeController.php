@@ -25,23 +25,22 @@ class HomeController extends Controller
     public function services(){
         $intel = intel::where('id',1)->get();
     
-        return view('posts.services',[
+        return view('pages.services',[
             'intel'=> $intel,
         ]);
     }
     
-        public function contact(){
-        return view('posts.contact');
-    }
+        
+
     public function home(){
-        return view('posts.home');
+        return view('pages.home');
     }
     public function homepage(){
-        return view('posts.homepage');
+        return view('pages.homepage');
     }
     public function about(){
         
-            return view('posts.about');
+            return view('pages.about');
     }
     public function search(Request $request){
         //creating a search function
@@ -49,7 +48,7 @@ class HomeController extends Controller
             $search = $_GET['query'];
         //choosing a file name in the DB that is matching with the search query
             $searchName = DB::table('files')->where('name','LIKE','%'.$search.'%')->paginate(2);
-            return view('posts.search',['files'=>$searchName]);
+            return view('pages.search',['files'=>$searchName]);
         }
         else {
             return redirect('/');
@@ -75,10 +74,10 @@ class HomeController extends Controller
     }
     public function index()
     {
-        return view('posts.home');
+        return view('pages.home');
     }
     public function files()
     {
-        return view('posts.fileupload');
+        return view('pages.fileupload');
     }
 }
