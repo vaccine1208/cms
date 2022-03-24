@@ -28,9 +28,7 @@ class HomeController extends Controller
         return view('pages.services',[
             'intel'=> $intel,
         ]);
-    }
-    
-        
+    }    
 
     public function home(){
         return view('pages.home');

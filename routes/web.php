@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\FilesController;
 use App\Http\Controllers\ContactController;
-
+use App\Http\Controllers\subpagesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +25,12 @@ Route::get('/contact',[ContactController::class,'contact'])->name('pages.contact
 Route::post('/send-message',[ContactController::class,'sendEmail'])->name('contact.send');
 Route::get('/services',[HomeController::class,'services'])->name('pages.services');
 Route::get('/homepage',[HomeController::class,'home'])->name('pages.homepage');
+Route::get('/bags',[subpagesController::class,'bags'])->name('subpages.bags');
+Route::get('/glasses',[subpagesController::class,'glasses'])->name('subpages.glasses');
+Route::get('/shoes',[subpagesController::class,'shoes'])->name('subpages.shoes');
+Route::get('/kits',[subpagesController::class,'kits'])->name('subpages.kits');
+Route::get('/watch',[subpagesController::class,'shoes'])->name('subpages.watch');
+Route::get('/devices',[subpagesController::class,'devices'])->name('subpages.devices');
 Route::get('/search',[HomeController::class,'search'])->name('pages.search');
 Route::post('/FilesUpload',[FilesController::class,'upload']);
 Route::get('/FilesUpload',[HomeController::class,'files'])->name('pages.fileupload');
