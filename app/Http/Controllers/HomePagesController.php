@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SubpagesController extends Controller
+class HomePagesController extends Controller
 {
-     /**
+      /**
      * Create a new controller instance.
      *
      * @return void
