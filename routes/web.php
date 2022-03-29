@@ -2,10 +2,10 @@
 
 use App\Models\intel;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomePagesController;
 use App\Http\Controllers\FilesController;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\subpagesController;
+use App\Http\Controllers\HomePagesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes

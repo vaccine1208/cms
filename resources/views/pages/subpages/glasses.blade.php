@@ -11,7 +11,7 @@
     <button type="button" class="btn btn-primary"><a class="text-white" style="text-decoration:none;" href="{{ route('subpages.glasses') }}">Glasses</a></button>
     <button type="button" class="btn btn-secondary"><a class="text-white" style="text-decoration:none;" href="{{ route('subpages.kits') }}">Kits</a></button>
     <button type="button" class="btn btn-secondary"><a class="text-white" style="text-decoration:none;" href="{{ route('subpages.devices') }}">Devices</a></button>
-    <button type="button" class="btn btn-secondary">More+</button>
+    <button type="button" class="btn btn-secondary"><a class="text-white" style="text-decoration:none;" href="{{ route('pages.contact') }}">More+</a></button>
   </div>
   <div class="col-sm-3 col-lg-4 m-2 shadow ">
     <img src="{{URL('images/glasses/glass1.jpg')}}" class="img-fluid">
